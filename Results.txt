@@ -1,0 +1,16 @@
+Total Number of Bonds: 8068
+AU: 1684
+CG: 5403
+AC: 0
+AG: 0
+CA: 0
+CU: 0
+UG: 981
+AA: 0
+UU: 0
+CC: 0
+GG: 0
+Unknown Bonds: 0
+Percent AU: 0.21
+Percent CG: 0.67
+Percent GU: 0.12
