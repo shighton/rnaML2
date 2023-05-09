@@ -6,7 +6,7 @@ This version creates images from nucleotide strand pairing information out of Ja
 
 The images are split into two categories which are either "hit" or "miss"
 
-Images may be found in the src folder as 'targetFind.png' and 'targetMiss.png'
+Images may be found in the src/lib folder as 'targetFind.png' and 'targetMiss.png'
 
 These images will be passed into a Convolutional Neural Network (along with their labels) using Python to determine patterns and predict whether validation/test microRNA strands will bind to larger mRNA strands
 
