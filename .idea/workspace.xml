@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="918af3e7-bbad-43b0-8956-352be1afa781" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grabLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grabLabels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/dataForHitPic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dataForHitPic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/dataForMissPic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dataForMissPic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rnaFoldStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rnaFoldStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rnaPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rnaPicture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683652754427</updated>
-      <workItem from="1683652755658" duration="3167000" />
+      <workItem from="1683652755658" duration="4848000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1683652892305</created>
@@ -82,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683655880119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first">
+      <created>1683656026049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683656026049</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first">
+      <created>1683656173300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683656173300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

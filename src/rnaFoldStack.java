@@ -1,3 +1,10 @@
+/**
+ * @author Sabastian Highton
+ * 1) This was for a Data Structures class not for this project but it can be useful
+ * 2) To use it for this project -> Have one line be the concatenated sequences and the next be the dot-parenthesis notation
+ * 3) Results are stored in the Results.txt file
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -18,7 +25,7 @@ public class rnaFoldStack {
 		List<String> rnaSeq = new ArrayList<String>();
 
 		try {
-			br = new BufferedReader(new FileReader("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/data_for_stack_project1.txt"));
+			br = new BufferedReader(new FileReader("/Users/shighton/IdeaProjects/rnaML2/src/lib/data_for_stack_project1.txt"));
 			StringBuilder sb = new StringBuilder();
 		    String line = br.readLine();
 
@@ -125,7 +132,7 @@ public class rnaFoldStack {
 			}
 		}
 
-		File aFile = new File("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/Results.txt");
+		File aFile = new File("/Users/shighton/IdeaProjects/rnaML2/src/lib/Results.txt");
 		try {
 			if(aFile.createNewFile()){
 				System.out.println("File creation successful.");
@@ -144,7 +151,7 @@ public class rnaFoldStack {
 
 		FileWriter writer;
 		try {
-			writer = new FileWriter("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/Results.txt");
+			writer = new FileWriter("/Users/shighton/IdeaProjects/rnaML2/src/lib/Results.txt");
 			writer.write("Total Number of Bonds: " + bondCount);
 			writer.write("\nAU: " + bondAU_count);
 			writer.write("\nCG: " + bondCG_count);

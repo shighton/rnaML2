@@ -1,3 +1,11 @@
+/**
+ * @author Sabastian Highton
+ * 1) Reads from the arff files the miRNA and mRNA sequences
+ * 2) Concatenates them with the '&' operator and adds an '&' operator at the end as well for formatting
+ * 3) Places the sequences labeled with a '1' in the 'dataForHitPic.txt' file
+ * 4) Places the sequences labeled with a '0' in the 'dataForMissPic.txt' file
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -11,7 +19,7 @@ public class grabLabels {
 		BufferedReader br;
 		String all = "";
 		try {
-			br = new BufferedReader(new FileReader("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/MHL_hsa_sep29_trnSet_miRNAgrpby_20_80.arff"));
+			br = new BufferedReader(new FileReader("/Users/shighton/IdeaProjects/rnaML2/src/lib/MHL_hsa_sep29_trnSet_miRNAgrpby_20_80.arff"));
 			StringBuilder sb = new StringBuilder();
 		    String line = br.readLine();
 
@@ -50,7 +58,7 @@ public class grabLabels {
 			sHits = sHits + mHits.group() + "&\n";
 		}
 		
-		File fileMiss = new File("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/dataForMissPic.txt");
+		File fileMiss = new File("/Users/shighton/IdeaProjects/rnaML2/src/lib/dataForMissPic.txt");
 		try {
 			FileWriter myWriter = new FileWriter(fileMiss);
 			myWriter.write(sMisses);
@@ -59,7 +67,7 @@ public class grabLabels {
 			e.printStackTrace();
 			System.out.println("Unable to create the file");
 		}
-		File fileHit = new File("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/dataForHitPic.txt");
+		File fileHit = new File("/Users/shighton/IdeaProjects/rnaML2/src/lib/dataForHitPic.txt");
 		try {
 			FileWriter myWriter = new FileWriter(fileHit);
 			myWriter.write(sHits);

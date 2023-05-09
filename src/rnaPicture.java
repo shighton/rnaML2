@@ -1,3 +1,10 @@
+/**
+ * @author Sabastian Highton
+ * 1) Creates grid pictures of 1x1 pixel rectangles of different colors for different nucleotide bonds
+ * 2) Grid pictures are already separated from previous step into 'hit' and 'miss' categories
+ * 3) Grid pictures are concatenated and outputted into 'targetFind.png' and 'targetMiss.png'
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
