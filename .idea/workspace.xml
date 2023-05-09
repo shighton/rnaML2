@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="918af3e7-bbad-43b0-8956-352be1afa781" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MHL_hsa_sep29_trnSet_miRNAgrpby_20_80.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/MHL_hsa_sep29_trnSet_miRNAgrpby_20_80.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MHL_hsa_sep29_tstSet_miRNAgrpby_20_80.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/MHL_hsa_sep29_tstSet_miRNAgrpby_20_80.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MHL_mmu_tstSet.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/MHL_mmu_tstSet.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataForHitPic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dataForHitPic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataForMissPic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dataForMissPic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_for_stack_project1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data_for_stack_project1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mRNAPic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/mRNAPic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rnaPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rnaPicture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetFind.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/targetFind.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetMiss.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/targetMiss.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +49,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683652754427</updated>
-      <workItem from="1683652755658" duration="1337000" />
+      <workItem from="1683652755658" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1683652892305</created>
@@ -61,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683653285442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first">
+      <created>1683654404384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683654404384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

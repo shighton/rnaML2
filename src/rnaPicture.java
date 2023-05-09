@@ -12,7 +12,7 @@ public class rnaPicture {
 		BufferedReader br;
 		String everythingMiss = "";
 		try {
-			br = new BufferedReader(new FileReader("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/dataForMissPic.txt"));
+			br = new BufferedReader(new FileReader("/Users/shighton/IdeaProjects/rnaML2/src/lib/dataForMissPic.txt"));
 			StringBuilder sb = new StringBuilder();
 		    String line = br.readLine();
 
@@ -27,7 +27,7 @@ public class rnaPicture {
 		}
 		String everythingHit = "";
 		try {
-			br = new BufferedReader(new FileReader("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/dataForHitPic.txt"));
+			br = new BufferedReader(new FileReader("/Users/shighton/IdeaProjects/rnaML2/src/lib/dataForHitPic.txt"));
 			StringBuilder sb = new StringBuilder();
 		    String line = br.readLine();
 
@@ -158,7 +158,7 @@ public class rnaPicture {
         g2d.dispose();
  
         // Save as PNG
-        File file = new File("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/targetMiss.png");
+        File file = new File("/Users/shighton/IdeaProjects/rnaML2/src/lib/targetMiss.png");
         ImageIO.write(bufferedImage, "png", file);
 	}
 	public static void createHitPic(String aSeq, int anXCounter, int aYCounter) throws IOException {
@@ -214,7 +214,7 @@ public class rnaPicture {
         g2d.dispose();
  
         // Save as PNG
-        File file = new File("/Users/shighton/eclipse-workspace/rnaML/src/rnaML/targetFind.png");
+        File file = new File("/Users/shighton/IdeaProjects/rnaML2/src/lib/targetFind.png");
         ImageIO.write(bufferedImage, "png", file);
 	}
 }
